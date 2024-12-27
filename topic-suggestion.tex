@@ -1,0 +1,75 @@
+%
+% Topic suggestion for degree project
+% Template version: See \theVersion below. Don't forget to update when updating the template.
+%
+\documentclass[12pt,a4paper,twoside]{article}
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+% --------------------------------------------
+% package "todonotes" is used for notes and comments
+% To disable all notes you can use the option "disable", see second row below:
+\usepackage[color=blue!10,textsize=footnotesize,textwidth=25mm]{todonotes}
+%\usepackage[disable]{todonotes} %passive=do not show
+% --------------------------------------------
+\usepackage[sort&compress]{natbib}
+\setcitestyle{numbers,square,comma}
+\setlength{\bibsep}{4pt}
+
+% Do only change the version number and date below when changing the template.
+% Update also the Word template. Keep the version numbers in both formats in sync.
+\newcommand{\theVersion}{1.3 -- March 12, 2020}
+
+% Redefine the course code and name.
+\newcommand{\theCourse}{E.g., PA2534, TE2502, ...}
+
+% *** Do not touch the following lines. BEGIN. ***
+\title{Topic suggestion for degree project\\\vspace{1mm}\small{Version \theVersion}}
+\author{\textsc{\theCourse}}
+\date{\today}
+%
+\begin{document}
+%
+\maketitle
+%
+\vspace*{-5mm}
+% *** END. Do not touch the lines above. ***
+
+% *** PLEASE START HERE ***
+\noindent
+\begin{tabular}{|l|l|p{10cm}|}
+\hline
+\multirow{2}{*}{Topic}
+& Tentative title    &  \\\cline{2-3}
+& Keywords           &  \\
+\hline
+\multirow{3}{*}{BTH contact}
+& Name and title     &  \\\cline{2-3}
+& E-mail             &  \\\cline{2-3}
+& Department         &  \\
+\hline
+\multicolumn{2}{|l|}{In collaboration with industry} & YES / NO / company name \\
+\hline
+\end{tabular}
+
+
+\section{Introduction}
+\todo[inline]{Please provide a brief introduction~/~background in a few paragraphs (max. 1/2 page). The topic suggestion should give students a good idea about the topic, but not be ``short cut'' to writing a full project plan.}
+
+
+\section{Prerequisites}
+\todo[inline]{Please state the knowledge, experience, and skills that students taking this topic need to have.}
+
+
+\section*{References/ suggested reading}
+\todo[inline]{1--3 key references are sufficient.}
+% All references are stored in a separate bib-file: topic-refs.bib
+%\bibliography{topic-refs}
+%\bibliographystyle{IEEEtranS}
+
+\end{document}
+
+
